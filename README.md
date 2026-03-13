@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header.jpg" width="100%">
+  <img src="header.jpg" width="600">
 </p>
 
 # 🎯 Real-Time Object Detection System using YOLOv8
