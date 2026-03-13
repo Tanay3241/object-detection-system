@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="header.png" width="100%">
+</p>
+
 # 🎯 Real-Time Object Detection System using YOLOv8
 
 A **real-time object detection system** built using **YOLOv8 and OpenCV** that detects multiple objects in images, videos, and webcam streams.
@@ -37,8 +41,6 @@ object-detection-system
 ├── detect_video.py
 ├── requirements.txt
 ├── README.md
-├── images
-│   └── sample.jpg
 └── screenshots
     ├── upload.png
     ├── skills.png
