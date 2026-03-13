@@ -1,31 +1,177 @@
-# Real-Time Object Detection System using YOLOv8
+# 🎯 Real-Time Object Detection System using YOLOv8
 
-This project implements a real-time Object Detection System using YOLOv8 and OpenCV.
+A **real-time object detection system** built using **YOLOv8 and OpenCV** that detects multiple objects in images, videos, and webcam streams.
 
-## Features
-- Real-time webcam object detection
-- Image object detection
-- Video object detection
-- Bounding box visualization
-- FPS display
+The system uses a **pretrained deep learning model** to identify objects and display **bounding boxes with labels and confidence scores**.
 
-## Tech Stack
-- Python
-- YOLOv8
-- OpenCV
+---
 
-## Installation
+# 🚀 Features
 
+✔ Real-time object detection using webcam
+✔ Object detection from images
+✔ Object detection from video files
+✔ Bounding box visualization
+✔ Confidence score display
+✔ FPS (Frames Per Second) counter
+
+---
+
+# 🛠 Tech Stack
+
+* Python
+* YOLOv8
+* OpenCV
+* NumPy
+* Computer Vision
+
+---
+
+# 📂 Project Structure
+
+```
+object-detection-system
+│
+├── detect_webcam.py
+├── detect_image.py
+├── detect_video.py
+├── requirements.txt
+├── README.md
+├── images
+│   └── sample.jpg
+└── screenshots
+    ├── upload.png
+    ├── skills.png
+    └── match.png
+```
+
+---
+
+# ⚙ Installation
+
+Clone the repository
+
+```
+git clone https://github.com/yourusername/object-detection-system.git
+```
+
+Navigate to the project folder
+
+```
+cd object-detection-system
+```
+
+Install dependencies
+
+```
 pip install -r requirements.txt
+```
 
-## Run Webcam Detection
+---
 
+# ▶ Running the Project
+
+### Run Webcam Detection
+
+```
 python detect_webcam.py
+```
 
-## Run Image Detection
+Press **Q** to exit the webcam window.
 
+---
+
+### Run Image Detection
+
+```
 python detect_image.py
+```
 
-## Run Video Detection
+---
 
+### Run Video Detection
+
+```
 python detect_video.py
+```
+
+---
+
+# 📸 Screenshots
+
+## 1️⃣ Upload / Webcam Interface
+
+![Upload Interface](screenshots/upload.png)
+
+This screen allows the user to start webcam detection or upload an image for object detection.
+
+---
+
+## 2️⃣ Objects Detected
+
+![Objects Detected](screenshots/skills.png)
+
+The model detects objects in the frame and labels them with bounding boxes.
+
+Example detected objects:
+
+```
+Person
+Car
+Laptop
+Bottle
+Chair
+```
+
+---
+
+## 3️⃣ Detection Confidence
+
+![Detection Confidence](screenshots/match.png)
+
+The system displays detection confidence and highlights the detected objects in real time.
+
+---
+
+# 💡 How It Works
+
+1️⃣ The webcam or image is captured using **OpenCV**
+
+2️⃣ The **YOLOv8 pretrained model** processes the frame
+
+3️⃣ The model detects objects and returns:
+
+* object class
+* bounding box
+* confidence score
+
+4️⃣ Bounding boxes and labels are drawn on the frame.
+
+---
+
+# 📈 Example Output
+
+Detected objects:
+
+```
+Person – 0.92
+Laptop – 0.88
+Bottle – 0.81
+```
+
+---
+
+# 🎯 Future Improvements
+
+* Web interface using Streamlit
+* Object tracking system
+* Custom model training
+* Cloud deployment
+
+---
+
+# 👨‍💻 Author
+
+Developed as a **Computer Vision project** using YOLOv8 and OpenCV for real-time object detection.
+
+---
