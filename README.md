@@ -101,15 +101,14 @@ python detect_video.py
 
 ## 1️⃣ Upload / Webcam Interface
 
-![Upload Interface](screenshots/upload.png)
+![Upload Interface](upload.png)
+
 
 This screen allows the user to start webcam detection or upload an image for object detection.
 
 ---
 
 ## 2️⃣ Objects Detected
-
-![Objects Detected](screenshots/skills.png)
 
 The model detects objects in the frame and labels them with bounding boxes.
 
@@ -127,7 +126,7 @@ Chair
 
 ## 3️⃣ Detection Confidence
 
-![Detection Confidence](screenshots/match.png)
+![Detection Confidence](match.png)
 
 The system displays detection confidence and highlights the detected objects in real time.
 
